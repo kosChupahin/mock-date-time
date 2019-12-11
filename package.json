@@ -1,0 +1,38 @@
+{
+  "name": "cpp-ad-mock-date",
+  "version": "1.0.0",
+  "description": "A JavaScript mock Date object that can be used to change when \"now\" is.",
+  "main": "./src/mockdate.js",
+  "files": [
+    "lib/*",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kosChupahin/mock-date-time.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^4.1.1",
+    "mocha": "^3.5.0",
+    "should": "^11.2.1",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "vinyl-paths": "^2.1.0"
+  },
+  "scripts": {
+    "transpile": "gulp",
+    "test": "mocha"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.aws.wiley.com:8081/nexus/content/repositories/npm_local/"
+  },
+  "keywords": [
+    "date",
+    "mock",
+    "test"
+  ],
+  "spm": {
+    "main": "src/mockdate.js"
+  }
+}
